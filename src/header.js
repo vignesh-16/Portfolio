@@ -1,5 +1,5 @@
 import React from 'react';
-import profilepic from './assets/images/profilepics/vignesh.jpg'
+import profilepic from './assets/images/profilepics/vignesh_color.jpg'
 function NavBar() {
     return (
         <nav>
@@ -18,7 +18,9 @@ function Header() {
     return(
         <header>
             <div className='intro'>
-                <a href="null"><img className='profile-pic-header' src={profilepic} alt='vignesh'></img></a>
+                <a href="null"><img className='profile-pic-header padd border circle bg-white square' src={profilepic} alt='vignesh'></img></a>
+                <div className='my-name'>Vignesh</div>
+                <h2 className='profile-brief'>Software Engineer with experience in Java, JavaScript, Selenium WebDriver</h2>
             </div>
         </header>
     );
