@@ -5,6 +5,9 @@
 /.pnp
 .pnp.js
 
+#personalmedia
+/src/assets/images/profilepics/
+
 # testing
 /coverage
 

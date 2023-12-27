@@ -1,0 +1,22 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.home, .works {
+  width: 50%;
+  display: flex;
+}
+
+.home :hover, .works :hover{
+  text-decoration: underline;
+}
+
+.works {
+  justify-content: end;
+  padding-right: 1%;
+}
+
+#projects {
+  padding-right: 1%;
+}
