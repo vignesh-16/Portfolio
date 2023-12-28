@@ -2,7 +2,7 @@ import React from 'react';
 import profilepic from './assets/images/profilepics/vignesh_color.jpg'
 function NavBar() {
     return (
-        <nav>
+        <nav className='border-bottom'>
             <span className='home'>
                 <span id='home'>VIGNESH</span>
             </span>
@@ -16,7 +16,7 @@ function NavBar() {
 
 function Header() {
     return(
-        <header>
+        <header className='border-bottom'>
             <div className='intro'>
                 <a href="null"><img className='profile-pic-header padd border circle bg-white square' src={profilepic} alt='vignesh'></img></a>
                 <div className='my-name'>Vignesh</div>

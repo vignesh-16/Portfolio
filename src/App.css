@@ -28,6 +28,16 @@ a {
   padding-right: 1.5%;
 }
 
+.border-bottom {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: rgba(0,0,0,.125);
+}
+
+.size-1-05-rem {
+  font-size: 1.5rem;
+}
+
 header {
   background-color: #f5f8fa;
 }
@@ -70,4 +80,21 @@ header {
 
 .profile-brief{
   font-size: 1.5rem;
+}
+
+.main-content-block {
+  display: flex;
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2rem;
+}
+
+.three-quarters-block {
+  max-width: 75%;
+}
+
+.padd-eff-1rem {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
