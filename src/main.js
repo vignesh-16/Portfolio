@@ -10,7 +10,7 @@ function Summary() {
                         Vignesh loves programming, gaming, travelling and listening to music. He feels awkward about talking about himself in third person.
                         He works as a Software Engineer, involved simultaneously in Full stack development, QA Automation and Selenium Load testing during
                         his first two years of his career is intrigued in Java Spring Boot based development although his current mid term goal is to become 
-                        a Data Engineer he is hopeful about becoming a Java full stack developer before becoming a Data engineer.
+                        a Data Engineer he is hopeful about to work as a Java full stack developer before becoming a Data engineer.
                     </p>
                 </div>
                 <div className="one-quarter-block padd-eff-1rem">
