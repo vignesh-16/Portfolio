@@ -98,3 +98,13 @@ header {
   padding-left: 1rem;
   padding-right: 1rem;
 }
+
+.social-image {
+  height: 2em;
+  padding-right: 2px;
+}
+
+.social a {
+  display: flex;
+  text-decoration: none;
+}

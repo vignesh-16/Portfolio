@@ -1,9 +1,8 @@
 import React from "react";
-
+import linkedIn from "../src/assets/images/icons/pngwing.com.png"
 function Summary() {
     return (
-        <>
-            <main className="main-content-block">
+        <main className="main-content-block">
                 <div className="three-quarters-block padd-eff-1rem">
                     <h3 className="size-1-05-rem">About me</h3>
                     <p>
@@ -15,12 +14,11 @@ function Summary() {
                 </div>
                 <div className="one-quarter-block padd-eff-1rem">
                     <h3 className="size-1-05-rem">Contact</h3>
-                    <div className="social-linkedIn">
-                        <a href="https://www.linkedin.com/in/vignesh-a-fsd/"><span>LinkedIn</span></a>
+                    <div className="social linkedIn">
+                        <a href="https://www.linkedin.com/in/vignesh-a-fsd/"><img className="social-image" src={linkedIn} alt="linkedIn"></img>LinkedIn</a>
                     </div>
                 </div>
-            </main>
-        </>
+        </main>
     );
 }
 
